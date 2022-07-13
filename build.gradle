@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'seleniumWithZap'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
+    // https://mvnrepository.com/artifact/org.zaproxy/zap-clientapi
+    testImplementation 'org.zaproxy:zap-clientapi:1.10.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.2.1'
+    // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.2.0'
+}
+
+test {
+    useTestNG()
+}
