@@ -1,4 +1,5 @@
 ## Prerequisite Security Testing Selenium With OWASP ZAP.
+ OWASP ZAP must open during run test case
 - [Download & Install JDK](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 - [Download & Install IntelliJ IDEA Community Version](https://www.jetbrains.com/idea/download/)
 - [Download & Install OWASP ZAP](https://www.zaproxy.org/download/)
