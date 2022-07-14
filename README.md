@@ -14,6 +14,12 @@
 
 ## OWASP ZAP Integration
 - Open OWASP ZAP
-- Address & Port : Main Menu >> Tools >> Options >> Local Proxies
-- API Key : Main Menu >> Tools >> Options >> API
+- Address & Port : Go to Main Menu >> Tools >> Options >> Local Proxies
+- API Key : Go to Main Menu >> Tools >> Options >> API
 - Add Address, Port & API Key in BaseTest class [./src/test/java/com/zap/test/BaseTest.java]
+
+## Report Location
+- ./build/dvwa.html
+
+## Caution
+- It is very important to note that you should only use ZAP on your own Applications or the ones you have permission to test
